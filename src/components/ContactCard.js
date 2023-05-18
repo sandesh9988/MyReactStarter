@@ -2,7 +2,7 @@ import React from "react";
 import user from "../images/user.png";
 
 const ContactCard = (props) => {
-    const { id, name, email } = props.contact;
+    const { name, email } = props.contact;
     return (
         <div className="item" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "20px" }}>
             <div className="content" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "10px" }}>
